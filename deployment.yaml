@@ -3,22 +3,22 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: demo
-  name: demo
+    app: kvz
+  name: kvz
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: demo
+      app: kvz
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: demo
+        app: kvz
     spec:
       containers:
-      - image: registry.kvz.cl/rest-api-app:latest
+      - image: registry.kvz.cl/kvz-api-bank:latest
         name: rest-api-app
         resources: {}
         imagePullPolicy: Always
@@ -30,8 +30,8 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    app: demo
-  name: demo
+    app: kvz
+  name: kvz
 spec:
   ports:
   - name: 8080-8080
@@ -39,7 +39,7 @@ spec:
     protocol: TCP
     targetPort: 8080
   selector:
-    app: demo
+    app: kvz
   type: NodePort
 status:
   loadBalancer: {}
