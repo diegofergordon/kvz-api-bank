@@ -8,7 +8,7 @@
     <version>2.7.17</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
-  <groupId>org.example</groupId>
+  <groupId>kvz.demo</groupId>
   <artifactId>kvz-api-bank</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
