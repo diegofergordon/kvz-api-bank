@@ -12,7 +12,7 @@ public class AccountController {
 
     @GetMapping("get")
     public Account getAccount() {
-        return new Account("Savings", "12001212452", "1");
+        return new Account("Savingss", "12001212452", "1");
     }
 
     /*@GetMapping("validate")
