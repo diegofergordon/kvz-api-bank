@@ -20,4 +20,10 @@ public class AccountController {
         return new ValidationResult("Successful", "Account is valid");
     }
 */
+
+    public void error() {
+        int a = 0;
+        int b = 0;
+        int c = a / b;
+    }
 }
