@@ -15,8 +15,8 @@ public class AccountController {
         return new Account("Ahorros", "12001212452", "1");
     }
 
-    /*@GetMapping("validate")
+    @GetMapping("validate")
     public ValidationResult validate() {
         return new ValidationResult("Successful", "Account is valid");
-    }*/
+    }
 }
