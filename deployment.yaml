@@ -18,8 +18,8 @@ spec:
         app: kvz
     spec:
       containers:
-      - image: registry.kvz.cl/kvz-api-bank:latest
-        name: rest-api-app
+      - image: docker.internal.10.42.0.28.nip.io:5000/kvz-api-bank
+        name: kvz-api-bank
         resources: {}
         imagePullPolicy: Always
 status: {}
