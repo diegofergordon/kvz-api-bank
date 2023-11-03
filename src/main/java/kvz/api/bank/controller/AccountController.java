@@ -17,14 +17,14 @@ public class AccountController {
         return new Account("Ahorros", "12001212452", "1");
     }
 
-   /* @GetMapping("validate")
+    @GetMapping("validate")
     public ValidationResult validate() {
         return new ValidationResult("Validation account Successful", "Account is valid");
     }
     @GetMapping("remove")
     public RemoveResult remove() {
         return new RemoveResult("Removed account Successful", "Removed");
-    }*/
+    }
 
 
     public void suma() {
