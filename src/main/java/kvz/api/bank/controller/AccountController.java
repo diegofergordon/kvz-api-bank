@@ -25,11 +25,4 @@ public class AccountController {
     public RemoveResult remove() {
         return new RemoveResult("Removed account Successful", "Removed");
     }
-
-
-    public void suma() {
-        int a = 0;
-        int b=0;
-        int resultado =a / b;
-    }
 }
