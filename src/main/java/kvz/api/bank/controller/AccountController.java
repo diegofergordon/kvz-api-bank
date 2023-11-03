@@ -11,12 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("account")
 public class AccountController {
 
+    /*
     @GetMapping("get")
     public Account getAccount() {
         return new Account("Ahorros", "12001212452", "1");
     }
 
-    /*@GetMapping("validate")
+    @GetMapping("validate")
     public ValidationResult validate() {
         return new ValidationResult("Validation account Successful", "Account is valid");
     }
